@@ -1,7 +1,146 @@
+/*Colors*/
+
+.bg-color-name-title {
+background-color: #841B2D;
+}
+
+.bg-color-experience {
+    background-color: #FBCEB1;
+}
+
+/*Heading*/
+
+header {
+    margin: 0;
+}
+
+/*.heading {
+}*/
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*Navigation*/
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.dropdown-menu {
+    border: 0; 
+}
+
+/*Callout*/
+.hero-image {
+    background: url("../images/me.jpg");
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+} 
+
 .callout-container {
-    height: 80vh;
+    height: 85vh;
+    background-color: #841B2D;
+    color: white;
+}
+
+.name {
+    color: white;
+    font-weight: 400;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+.title {
+    color: white;
+    font-weight: 300;
+    margin-left: 3%;
+}
+
+.contact-info {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+
+.icons {
+    font-size: 24px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.icon-color a {
+    color: white;
+}
+
+.experience {
+    height: 15vh;
+    margin-top: 1.5%;
+}
+
+.exp-heading h3 {
+      display: inline;
+}
+
+.exp-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.exp-year {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -15px;
+} 
+
+.years-small {
+    font-size: 9px;
+}
+
+.try {
+     background-color:white;
+     height: 33vh;
+}
+
+.simplify {
+    margin-top: 10%;
+}
+
+/*Buttons*/
+
+.btn--cta {
+     margin-top: 3%;
+     margin-bottom: 3%;
+     margin-left: 3%;
+}
+
+.btn--white {
+  background-color:white;
+  border-color: white;
+  color: #841B2D;
+  font-weight: bold;
+}
+
+.btn--white:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:active:focus {
+    background-color: #CD9575;
+    border-color:  #CD9575;
+    color: white;
 }
